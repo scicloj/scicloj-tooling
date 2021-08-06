@@ -16,7 +16,7 @@ Notespace is a tool for interactive data visualization and literate programming.
 write literate unit tests [[https://scicloj.github.io/clojisr/doc/clojisr/v1/tutorial-test/][like here]], 
 write tutorials [[https://github.com/scicloj/clojisr-examples][like here]],
 do dynamic data exploration and visualization [[https://www.youtube.com/watch?v=2tGk1Jh7dJs][like here]],
- document such explorations [[https://scicloj.github.io/ml-study/projects/taxi-demo-1/dhttps://scicloj.github.io/scicloj-data-science-handbook/ocs/taxi-demo-1/geoprocessing-1/][like here]], 
+ document such explorations [[https://scicloj.github.io/ml-study/projects/taxi-demo-1/docs/taxi-demo-1/geoprocessing-1/][like here]], 
 share them in a way that others can follow [[https://github.com/scicloj/ml-study/blob/main/projects/taxi-demo-1/src/taxi_demo_1/geoprocessing_1.clj][like here]],
 and draft a future  [[https://scicloj.github.io/scicloj-data-science-handbook/][handbook]].
 
