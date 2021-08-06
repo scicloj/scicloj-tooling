@@ -1,4 +1,11 @@
 * scicloj-tooling
+** Related project links:
+noj repo -- the main user-facing entry point of the Scicloj stack - a turnkey REPL with everything one needs to start exploring
+notespace -- a tool for literate programming and dynamic data exploration/visualization
+gorilla-notes -- the Notespace frontend - a simple app for pushing data visualizations from the REPL to the browser
+kinds -- specifying different kinds of rendering behavior across tools in an extensible way
+handbook repo
+** scripts and utilities
 
 ** What's this?
 Despite the fact that the Scicloj community is primarily focused on establishing a data science stack, the tooling issues it has encountered are relevant to the broader Clojure community. Scicloj's main focus, especially in this current phase, is on making the emerging stack simple and intuitive, allowing newcomers to easily become contributors, and allowing anyone to quickly come up with a small project, which they can then share in a way that others can easily pick up and continue exploring.
@@ -46,7 +53,7 @@ Data Science is a way to extend Clojure's reach to a much larger group of people
 
 
 ** Anything else you should know?
-A [[https://www.youtube.com/watch?v=2tGk1Jh7dJs][public study session] about Notespace (part of our weekend study groups): 
+A [[https://www.youtube.com/watch?v=2tGk1Jh7dJs][public study session]] about Notespace (part of our weekend study groups): 
 
 In a larger sense, more remarkable tools are on the way, including Goldly and Clerk.
 
