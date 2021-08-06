@@ -1,1 +1,54 @@
 * scicloj-tooling
+
+** What's this?
+Despite the fact that the Scicloj community is primarily focused on establishing a data science stack, the tooling issues it has encountered are relevant to the broader Clojure community. Scicloj's main focus, especially in this current phase, is on making the emerging stack simple and intuitive, allowing newcomers to easily become contributors, and allowing anyone to quickly come up with a small project, which they can then share in a way that others can easily pick up and continue exploring.
+
+Notespace was the major entry point for the tooling we designed to meet that need.
+
+Notespace is a tool for interactive data visualization and literate programming. It's been used to document libraries [[https://github.com/scicloj/scicloj.ml#documentation]], 
+write literate unit tests [[https://scicloj.github.io/clojisr/doc/clojisr/v1/tutorial-test/]], 
+write tutorials [[https://github.com/scicloj/clojisr-examples]],
+do dynamic data exploration and visualization [[https://www.youtube.com/watch?v=2tGk1Jh7dJs]],
+ document such explorations [[https://scicloj.github.io/ml-study/projects/taxi-demo-1/dhttps://scicloj.github.io/scicloj-data-science-handbook/ocs/taxi-demo-1/geoprocessing-1/]], 
+share them in a way that others can follow [[https://github.com/scicloj/ml-study/blob/main/projects/taxi-demo-1/src/taxi_demo_1/geoprocessing_1.clj]],
+and draft a future handbook [[https://scicloj.github.io/scicloj-data-science-handbook/]].
+
+Notespace's fundamental aim is to provide a workflow in the Clojure editor and REPL that is as near to a regular REPL workflow as possible. The main distinction is an updating browser view that listens for specific events and updates a visual document in real time.
+Oz [[https://github.com/metasoarous/oz]] and forthcoming programs like Clerk [[https://nextjournal.com/mk/clerk-clojured]] and Goldly [[https://github.com/pink-gorilla/goldly]] have followed a similar approach. However, there are significant differences between these projects. Notespace's decisions have been made to meet the changing demands of users in the Scicloj community, study groups, and those busy with library construction.
+
+We've been in constant contact with authors of various tools [[most notably Goldly, Chlorine, Oz, and Clerk) about establishing compatibility layers that would allow users to switch tools easily while keeping their previous work.
+
+The planned project is part of a larger redesign of the tools stack, of which Notespace is only one component.
+
+The Scicloj tools stack will play a key part in a number of community projects in the near future, including writing library documentation and unit tests, conducting study sessions, exchanging experiences, and generating example workflows for beginners. We believe that the practices we're developing around these activities will benefit the Clojure community as a whole. People who participate in our explorations come from various backgrounds across the Clojure community.
+
+** The project's main focus is to support these needs.
+
+Here are the key tasks we're thinking about. We must emphasize that this will be a dynamic process that will be guided by our learnings from our growth process, user response from study sessions, and related tool developments.
+
+- Make the stack as seamless as possible so that it can be used in any Clojure programming environment.
+
+- Break Notespace into a few independent projects to make it more composable and compatible with other tools, as well as to make it easier to contribute.
+
+- Make documents sharable as a project template that another user can share them. Create a central, unified place for community members to share tutorials and experiments.
+
+- Support a unified approach to writing unit-tests, tutorials, and docstrings with one source of truth.
+
+- Rewrite the client-side: search-engine-friendly rendering, support for links, customizable themes, better setup of using css and js dependencies.
+
+** Why is this project important to the Clojure community?
+*** What is the tooling’s value to the Clojure community?
+The current Scicloj focus is on building libraries and tools that are expected to support the broad needs of Clojurians, not only in the data science scope. We are working on libraries for data processing, data exploration, and data visualization that can arguably be useful for any Clojurian with some data in their hands. 
+The scicloj-tooling process is about supporting the process of creating and using these libraries (documentation, testing, usage research), and to support the social process of building a growing group of people who are invited to make their first steps in contributing to open-source.
+
+*** What role does and can data science and data science communities play in the Clojure community as a whole?
+Data Science is a way to extend Clojure's reach to a much larger group of people with backgrounds that we aren't used to seeing in the Clojure or other programming communities. For example,  the realm of data science is generally more diverse than the subject of computer science. This would be, we believe, beneficial to the Clojure community's long-term viability, as well as the quality of the community's outputs.
+
+
+** Anything else you should know?
+A public study session about Notespace (part of our weekend study groups): https://www.youtube.com/watch?v=2tGk1Jh7dJs
+
+In a larger sense, more remarkable tools are on the way, including Goldly and Clerk.
+
+The purpose of the Scicloj tooling is to integrate with future tools as much as feasible, rather than to further fragment the tooling scene. We value compatibility, which is why we maintain an open line of communication to all these developers and strive to break down our current projects into manageable components.
+
