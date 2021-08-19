@@ -1,10 +1,10 @@
 * scicloj-tooling
 ** Related project links:
 - `noj` -- the main user-facing entry point of the Scicloj stack - a turnkey REPL with everything one needs to start exploring
-- [notespace](https://github.com/scicloj/notespace) -- a tool for literate programming and dynamic data exploration/visualization
-- [gorilla-notes](https://github.com/scicloj/gorilla-notes) -- the Notespace frontend - a simple app for pushing data visualizations from the REPL to the browser
+- [[https://github.com/scicloj/notespace][notespace]] -- a tool for literate programming and dynamic data exploration/visualization
+- [[https://github.com/scicloj/gorilla-notes][gorilla-notes]] -- the Notespace frontend - a simple app for pushing data visualizations from the REPL to the browser
 - `kinds` -- specifying different kinds of rendering behavior across tools in an extensible way
-- [handbook](https://scicloj.github.io/scicloj-data-science-handbook/) -- a central place for creating tutorials
+- [[https://scicloj.github.io/scicloj-data-science-handbook/][handbook]] -- a central place for creating tutorials
 
 ** scripts and utilities
 
